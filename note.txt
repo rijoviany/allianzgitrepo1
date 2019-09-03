@@ -1,0 +1,94 @@
+Training DOcuments_Download Links
+
+
+https://drive.google.com/drive/folders/1hx2QId_pMg35PM6kvJ0Sky2TQhr2I8CY?usp=sharing
+
+--------------------
+
+Linux Username:  root
+         password:   redhat
+
+
+_______________________________________________________
+
+
+commands to practise:
+
+
+git --version
+
+which git
+
+git config
+git clone
+
+******************************************************************
+
+
+Lab-1a
+
+signup in Github and create an empty repository
+git config --global user.email "email-id"
+git config --global user.name 'username'
+git config --list
+ssh-keygen -t RSA -C "middleware.devops1@gmail.com"
+git clone SSHUrl(No SSL URL) of repo
+
+
+
+
+*******************************************************
+Lab-1a  add the files to local repo and pushing to remote repo
+
+
+1. get into the repos in the localmachine
+
+create some code by using gedit index.html
+<html>
+<body>
+<h2> Welcome to Allianz Kerala Campus</h2>
+</body>
+</html>
+save and close
+
+2.   git status
+3.   git add .
+4.git status
+5.git commit -m "some message abt application"
+6.git push -u origin master
+
+
+-----------------------
+
+Lab-2 Branching /merging
+STEP-1. GIT BRANCH  + GIT MERGE
+
+Create a Branch
+	        git branch <BranshName>
+		git Checkout <Branchname>
+		git add
+		git commit -m "local brn commit"
+		git push -u origin "Branchname"
+		git checkout master
+		git merge "BranchName"
+		git push -u origin master
+		
+Deleteing the Branch
+
+local----> git branch -d <Branchname>  
+Remote----> git push origin --delete <Branchname>
+
+____________________________________________________________
+
+https://github.com/devops5ab/BabyAppRepo.git
+
+
+https://pkg.jenkins.io/redhat-stable/jenkins-2.176.3-1.1.noarch.rpm
+
+https://drive.google.com/uc?export=download&confirm=tC7Y&id=0BxfSv_LGgIyvbnpZREhXRjl1VTA
+https://drive.google.com/file/d/0BxfSv_LGgIyvbnpZREhXRjl1VTA/view?usp=sharing
+
+
+
+
+:
